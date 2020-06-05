@@ -5,3 +5,7 @@
 
 <h3> Will be finishing of the courses within 50 days from today, planning to give some extra time for projects.<h3>
 
+<h4> <b>Day 1 and Day 2</b> :  On Day one and Day two i,e 4th and 5th of june i have completed "Complete Python Bootcamp: Go from Zero to Hero", and started Excel specialization from coursera</h4>
+
+
+
