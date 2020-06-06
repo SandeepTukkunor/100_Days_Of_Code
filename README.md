@@ -7,5 +7,6 @@
 
 <h4> <b>Day 1 and Day 2</b> :  On Day one and Day two i,e 4th and 5th of june i have completed "Complete Python Bootcamp: Go from Zero to Hero", and started Excel specialization from coursera</h4>
 
+<h4>Day3 :Excel Specialization course from coursera</h4>
 
 
