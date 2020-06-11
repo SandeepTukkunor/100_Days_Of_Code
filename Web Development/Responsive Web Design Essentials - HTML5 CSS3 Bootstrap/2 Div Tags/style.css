@@ -1,0 +1,40 @@
+/* div {
+    background-color: salmon;
+    width: 600px;
+    height: 400px;
+} */
+
+/* Learned adding class */
+
+
+.box1 {
+    background-color: salmon;
+    width: 600px;
+    height: 400px;
+}
+
+.box2 {
+    background-color: lime;
+    color: black;
+    width: 400px;
+    height: 250px;
+}
+
+/* .highlight-text {
+    color: burlywood;
+    font-size: 30px;
+} */
+
+/* Nested Boxes */
+
+.box3 {
+    background-color: gray;
+    width: 100px;
+    height: 300px;
+}
+
+.box4 {
+    background-color: rgb(49, 21, 204);
+    width: 350px;
+    height: 120px;
+}
