@@ -1,0 +1,106 @@
+
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color:rgb(48, 44, 44);
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    
+    
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+
+
+}
+
+
+header {
+    /* background-color: blue; */
+    /* width: 1024px; we can remove the width as container takes care of it */ 
+    height: 118px;
+    text-align: center;
+}
+
+
+nav {
+    background-color:rgba(0, 0, 0, 0.205);
+    /* width: 1024px; */
+    /* height: 40px; */
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+}
+
+main {
+    /* background-color: orange ; */
+    /* width: 1024px ; */
+    height: 400px ;
+    text-align: center;
+    padding-top: 80px;
+    /* instaed of padding top, we can do margin top */ 
+    /* margin-top: 80px; */
+    padding-left: 240px;
+    padding-right: 240px;
+
+
+    
+    
+}
+ 
+footer {
+    background-color: greenyellow;
+    /* width: 1024px ; */
+    height: 100px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    /* color: lime; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+/* Specificity */
+nav a {
+    text-decoration: none;
+    /* color: yellow; */
+    /* padding-bottom: 20px;
+     */
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+footer {
+    background-color: white;
+    
+    
+}
+
+
