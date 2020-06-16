@@ -1,5 +1,26 @@
 .container {
     width: 1024px;
-    background-color: lawngreen;
+    background-color: green;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: greenyellow;
+    min-height: 100px;
+}
+
+main {
+    background-color: rgb(48, 128, 48);
     min-height: 300px;
 }
+
+.cards {
+    background-color: rgb(6, 138, 39);
+    min-height: 300px;
+    
+}
+
+
+
