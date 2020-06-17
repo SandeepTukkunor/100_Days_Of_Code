@@ -23,4 +23,23 @@ main {
 }
 
 
+.card1 {
+    background-color: hotpink;
+    min-height: 300px;
+    width: 33.33%;
+}
+
+.card2 {
+    background-color: rgb(95, 6, 51);
+    min-height: 300px;
+    width: 33.33%;
+}
+
+.card3 {
+    background-color: rgb(238, 6, 122);
+    min-height: 300px;
+    width: 33.33%;
+}
+
+
 
