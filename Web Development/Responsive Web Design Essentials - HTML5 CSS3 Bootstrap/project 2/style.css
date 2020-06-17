@@ -19,6 +19,7 @@ main {
 .cards {
     background-color: rgb(6, 138, 39);
     min-height: 300px;
+    display: flex;
     
 }
 
