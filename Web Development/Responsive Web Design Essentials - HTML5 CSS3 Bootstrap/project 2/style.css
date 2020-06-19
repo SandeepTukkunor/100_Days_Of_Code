@@ -4,6 +4,7 @@
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 }
 
 header {
@@ -14,12 +15,15 @@ header {
 main {
     background-color: rgb(48, 128, 48);
     min-height: 300px;
+    display: flex;
 }
 
 .cards {
     background-color: rgb(6, 138, 39);
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
+    
     
 }
 
@@ -27,19 +31,29 @@ main {
 .card1 {
     background-color: hotpink;
     min-height: 300px;
-    width: 33.33%;
+    width:30%;
 }
 
 .card2 {
     background-color: rgb(95, 6, 51);
     min-height: 300px;
-    width: 33.33%;
+    width:30%;
 }
 
-.card3 {
+.card3{
     background-color: rgb(238, 6, 122);
     min-height: 300px;
-    width: 33.33%;
+    width: 30%;
+}
+
+.herobox1{
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+.herobox2 {
+    width: 50%;
+    background-color: mintcream;
 }
 
 
