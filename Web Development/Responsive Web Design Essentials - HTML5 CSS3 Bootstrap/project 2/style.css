@@ -1,21 +1,47 @@
+
+
+html {
+    /* height: 100%; */
+}
+
+body {
+    /* background-color: #FC5E55; */
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    /* background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: white;
+    
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+
 .container {
     width: 1024px;
-    background-color: green;
+    
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    color: black;
+    
 }
 
 header {
-    background-color: greenyellow;
-    min-height: 100px;
+    /* background-color: greenyellow; */
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 main {
-    background-color: rgb(48, 128, 48);
+    
     min-height: 300px;
     display: flex;
+    align-items: center;
+    /* color: black */
 }
 
 .cards {
@@ -47,13 +73,22 @@ main {
 }
 
 .herobox1{
-    width: 50%;
-    background-color: cornflowerblue;
+    /* width: 50%; */
+    /* background-color: rgb(33, 80, 168); */
+    flex: 2;
 }
 
 .herobox2 {
-    width: 50%;
-    background-color: mintcream;
+    /* width: 50%; */
+    /* background-color: whitesmoke; */
+    flex: 1;
+}
+
+h1 {
+    font-size: 80px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Balsamiq Sans', cursive;
+
 }
 
 
