@@ -13,4 +13,6 @@
 
 <h4> 8 to 17th completed python coures and python for ML</h4>
 
+<h4>Day 18 to 20: Statistical learning book  </h4>
+
 
