@@ -5,6 +5,22 @@ body {
 h1 {
     margin-top: 0px;
 }
-div {
-    background-color: #cff6cf;
+
+/* CLass  */
+
+.top {
+    background-color: rgb(196, 234, 240);
 }
+
+.middle {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
