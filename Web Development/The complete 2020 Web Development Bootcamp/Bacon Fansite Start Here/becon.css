@@ -1,9 +1,32 @@
+/* *******************TAG selectors *************/
+
 h1 {
     color: red;
     font-size: 200px;
     
 }
 
-img {
+/* img {
     background-color: chartreuse;
+} */
+
+/************************ class selectors ************* */
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+    width: 160px;
+    height: 160px;
+
+}
+
+
+
+
+/* ************ ID selectors ********* */
+
+#heading {
+    color: blue;
 }
