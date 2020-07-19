@@ -22,6 +22,10 @@ h1 {
 
 }
 
+.circular {
+    border-radius: 100%;
+}
+
 
 
 
