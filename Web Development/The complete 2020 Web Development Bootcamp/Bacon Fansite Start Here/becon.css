@@ -6,9 +6,10 @@ h1 {
     
 }
 
-/* img {
+img:hover{
     background-color: chartreuse;
-} */
+    
+} 
 
 /************************ class selectors ************* */
 .bacon {
