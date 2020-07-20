@@ -6,12 +6,15 @@ body {
 }    
 
 h1 {
+    font-size: 90px;
+    /* 16 * 90/ */
     margin-top: 0px;
     font-family: 'Sacramento', cursive;
 } 
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 
 }
 
