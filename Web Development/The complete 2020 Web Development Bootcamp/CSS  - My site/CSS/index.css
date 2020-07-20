@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -10,9 +12,24 @@ h1 {
 
 .top {
     background-color: rgb(196, 234, 240);
-    
+    position: relative;
+    padding-top: 100px;
     
 }
+.bottomcloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.topcloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+
 
 
 .middle {
@@ -35,6 +52,8 @@ h1 {
     text-decoration: underline;
 }
 
-span {
+/* span {
     background-color: coral;
-}
+} */
+
+
