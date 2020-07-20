@@ -4,9 +4,9 @@ body {
 
 h1 {
     margin-top: 0px;
-}
+} 
 
-/* CLass  */
+/* Classes */
 
 .top {
     background-color: rgb(196, 234, 240);
@@ -30,3 +30,11 @@ h1 {
     width: 200px;
 }
 
+
+.pro {
+    text-decoration: underline;
+}
+
+span {
+    background-color: coral;
+}
