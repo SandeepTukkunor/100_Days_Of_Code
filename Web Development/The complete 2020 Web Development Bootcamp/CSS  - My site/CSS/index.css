@@ -56,6 +56,24 @@ a {
     top: 50px;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+}
+
+.graph-img {
+    width: 25%;
+    float: left;
+}
+
 
 
 
@@ -77,8 +95,5 @@ a {
 /* span {
     background-color: coral;
 } */
-
-
-
 
 
