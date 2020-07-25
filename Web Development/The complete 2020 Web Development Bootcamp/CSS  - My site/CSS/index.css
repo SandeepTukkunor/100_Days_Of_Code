@@ -72,18 +72,18 @@ a {
 
 .graph-img {
     width: 25%;
-    float: left;
-    margin-right: 30px;
+    float: right;
+    margin-left: 30px;
 }
 
 
-.web-skill {
+/* .web-skill {
     clear: left;
 }
 
 .ml-skill {
-    clear: left;
-}
+    clear: right;
+} */
 
 
 
