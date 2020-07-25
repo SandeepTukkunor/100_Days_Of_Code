@@ -67,13 +67,23 @@ a {
 .computer-img {
     width: 25%;
     float: left;
+    margin-right: 30px;
 }
 
 .graph-img {
     width: 25%;
     float: left;
+    margin-right: 30px;
 }
 
+
+.web-skill {
+    clear: left;
+}
+
+.ml-skill {
+    clear: left;
+}
 
 
 
