@@ -16,7 +16,22 @@ print(98.5)
 x = 3
 x = x + 2
 print(x)
+print(42%10)
+
+y =  1 + 2 * 3 - 8 / 4
+
+print(y)
 #in above x is variable, + is operator, 2 is constant, print is fucntion 
 
 
 # mathematical operations
+# different types of datatypes like int , 
+# input function  : x = input("who are you")
+
+
+
+#convert elevator floor5
+
+inp = input("Europe floor?")
+usf = int(inp) + 1
+print("us floor  is ", usf )
