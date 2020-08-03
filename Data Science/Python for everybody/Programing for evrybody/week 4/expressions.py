@@ -11,3 +11,12 @@ print(98.5)
 
 # variables;  place where we ask python to allocate bit memory 
 #ex  x = 2  y = 5 etc
+
+
+x = 3
+x = x + 2
+print(x)
+#in above x is variable, + is operator, 2 is constant, print is fucntion 
+
+
+# mathematical operations
