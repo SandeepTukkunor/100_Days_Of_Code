@@ -35,3 +35,7 @@ print(y)
 inp = input("Europe floor?")
 usf = int(inp) + 1
 print("us floor  is ", usf )
+
+def myfunc():
+    i
+
