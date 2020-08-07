@@ -32,3 +32,13 @@ def greet(lang):
         print("hello")
 
 greet("eg")
+
+
+
+
+def stuff():
+    print('Hello')
+    return
+    print('World')
+
+stuff()
