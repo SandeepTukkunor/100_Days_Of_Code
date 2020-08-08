@@ -40,3 +40,34 @@ while index<len(fruit):
     print(index, letter)
     index = index+1
 
+
+# another easy method is use "for loop"
+fruit = "banana"
+
+for letter in fruit:
+    print(letter)
+
+
+# looping and counting 
+
+word = "banana"
+count = 0
+
+for i in word:
+    if i == "a":
+        count = count+1
+
+print(count)
+
+
+#looking deeper into "in"
+
+for letter in "banana":
+    print(letter)
+
+
+
+#slicing 
+s = "Monty Python"
+
+print(s[0:3]) #includes first but not upto, that means it will not count 3rd..
