@@ -36,7 +36,40 @@ for i in [9, 41,13,3,74 , 15]:
 
 print("the average of list is:" ,tot_sum/count)
 
-   
+
+
+# boolean 
+
+# Searching for a value in python 
+
+found = False
+count = 0
+print("before", found)
+for i in [9, 41,13,3,74 , 15]:
+    count = count + 1
+    if i == 3:
+        found = True
+        print(i)
+        break
+
+    print(found, count, i )
+print("found" , i,  " at ", count)
+
+
+
+#smallest value
+
+smallest = -1
+print("so far smallest is", smallest)
+for i in [9, 41,13,3,74 , 15]:
+    if i < smallest:
+        smallest = i 
+    print(smallest, i)
+
+print("After", smallest)
+
+
+
 
 
 
