@@ -59,11 +59,15 @@ print("found" , i,  " at ", count)
 
 #smallest value
 
-smallest = -1
+smallest = None
 print("so far smallest is", smallest)
 for i in [9, 41,13,3,74 , 15]:
-    if i < smallest:
-        smallest = i 
+    if smallest is None:
+        smallest = i
+    elif i< smallest:
+        smallest = i
+
+         
     print(smallest, i)
 
 print("After", smallest)
