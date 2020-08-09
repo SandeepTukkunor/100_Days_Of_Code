@@ -41,6 +41,16 @@ for line in file:
     print(line)
 
 
+
+fhand = open('mbox-short.txt')
+x = 0
+for line in fhand:
+
+    x = x + 1
+print(x)
+
+
+
 #dealing with bad names 
 file = input("please enter ur file name: ")
 
@@ -48,6 +58,7 @@ try:
     fileopen = open(file)
 except:
     print("please enter a valid file name and check for the directory in case you have lost", file)
+    quit()
 
 count = 0
 
