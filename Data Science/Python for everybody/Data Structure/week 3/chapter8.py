@@ -61,7 +61,7 @@ while True:
     count = count+1
 print("Average", total/count)
 """
-
+"""
 numlist = list()
 while True:
     inp = input("please enete a number")
@@ -70,5 +70,25 @@ while True:
     value = float(inp)
     numlist.append(value)
 print("The average is", sum(numlist)/ len(numlist))
+# this method uses lists
+
+"""
+
+#Best friends , strings and lists 
+
+word = "hello there how are you"
+stuff = word.split()
+print(stuff)
+# the string will be converted to list
+print(len(stuff))
 
 
+
+# reading   and splitting file with the help of list and array
+fhand = open("mbox-short.txt")
+for line in fhand:
+    line = line.rstrip()
+    if not line.startswith("From"):
+        continue
+    words = line.split()
+    print(words)
