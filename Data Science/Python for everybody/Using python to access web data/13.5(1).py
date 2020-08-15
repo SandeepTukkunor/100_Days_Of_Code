@@ -1,16 +1,18 @@
 import json
 
-data = """{
+data = """
+{
     "name" : "sandeep",
-    "phone" : {
+    "phone":{
         "type" : "intl",
-        "number" : "948028838"
+        "number" : "9448028838"
 
     },
-    "email" :{
-        "hide": "yes"
+    "email" : {
+        "hide" : "yes"
     }
-} """
+
+}"""
 
 info = json.loads(data)
 print("Name", info["name"])
