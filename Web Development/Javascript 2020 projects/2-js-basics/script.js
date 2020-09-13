@@ -52,10 +52,50 @@ job = "student"
 var lastname = prompt("what is your last name?")
 console.log(firstname + " " + lastname)
 
-*/
+
 
 //basic math operators
 
+
+var year , yearJohn, yearMark;
+
+now = 2018;
+ageJohn = 28;
+ageMark = 33;
+
+
+yearJohn = now - ageJohn;
+yearMark= now- ageMark;
+
+console.log(yearJohn);
+
+console.log(now +2);
+console.log(now *2);
+console.log(now/2);
+
+// logical operators
+var johnOlder = ageJohn > ageMark;
+
+console.log(johnOlder);
+
+
+
+// Type of operator 
+console.log(typeof johnOlder);
+console.log(typeof ageJohn)
+
+console.log(typeof "Mark is older")
+
+*/
+
+// operator percedence 
+
+var now = 2018;
+var yearJohn = 1998;
+var fullAge = 18;
+
+var isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);   
 
 
 
