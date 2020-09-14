@@ -86,7 +86,7 @@ console.log(typeof ageJohn)
 
 console.log(typeof "Mark is older")
 
-*/
+
 
 // operator percedence 
 
@@ -96,6 +96,107 @@ var fullAge = 18;
 
 var isFullAge = now - yearJohn >= fullAge;
 console.log(isFullAge);   
+
+// Grouping 
+var ageJohn = now - yearJohn;
+var ageMark = 35;
+
+var average = (ageJohn + ageMark)/2;
+
+console.log(average);
+
+// Grouping and multiple assignment 
+var x, y;
+x = y = (3+5) * 4 -6;
+console.log(x, y)
+
+
+//more operators 
+x = x +2 ;
+x += 2;
+console.log(x)
+
+
+
+// coading challenge 
+
+var massMark = 78; //kg
+var heightMark = 1.69; //meters 
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var bmiMark = massMark / (heightMark*heightMark);
+
+var bmiJohn = massJohn / (heightJohn* heightJohn);
+
+console.log(bmiMark, bmiJohn)
+
+var markheigherBMI = bmiMark > bmiJohn;
+
+
+console.log("is Marks\'s Bmi higher than Johns\'s" + markheigherBMI)
+
+
+
+// if and else statements 
+
+var firstname = "John";
+var civilstatus = "single";
+var isMarried = true;
+
+
+if ( isMarried){
+    console.log(firstname + " is  married ");
+
+} else {
+    console.log(firstname + " is not married");
+}
+
+
+
+var massMark = 78; //kg
+var heightMark = 1.69; //meters 
+
+var massJohn = 92;
+var heightJohn = 1.95;
+
+var bmiMark = massMark / (heightMark*heightMark);
+
+var bmiJohn = massJohn / (heightJohn* heightJohn);
+
+console.log(bmiMark, bmiJohn)
+if (bmiMark<bmiJohn) {
+    console.log("marks is higher then john");
+} else {
+    console.log("nothing")
+}
+
+//var markheigherBMI = bmiMark > bmiJohn;
+
+
+
+//console.log("is Marks\'s Bmi higher than Johns\'s" + markheigherBMI)
+
+
+*/
+
+//******Boolean logic ******//
+
+
+var firstname = "John";
+var age = 16;
+
+if (age<13){
+    console.log(firstname + " is a boy ");
+} else if (age >= 13 && age <20){
+    console.log(firstname + " is a teenager ");
+} else {
+    console.log(firstname + " he is a adult");
+}
+
+
+
 
 
 
