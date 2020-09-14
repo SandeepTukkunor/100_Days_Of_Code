@@ -179,9 +179,9 @@ if (bmiMark<bmiJohn) {
 //console.log("is Marks\'s Bmi higher than Johns\'s" + markheigherBMI)
 
 
-*/
 
-//******Boolean logic ******//
+
+//******Boolean logic ******
 
 
 var firstname = "John";
@@ -194,6 +194,74 @@ if (age<13){
 } else {
     console.log(firstname + " he is a adult");
 }
+
+
+
+// ternary operators
+
+var firstname = "john";
+var age = 16;
+
+age >= 18 ? console.log(firstname + " drinks whater")
+: console.log(firstname + " does not drink water ") ;
+
+var drink = age > 18 ? "beer" : "juice";
+
+console.log(drink);
+
+
+
+//ternary is alternative for if and else satatemensts 
+
+
+//switch statemens 
+
+var job = "teacher";
+switch (job) {
+    case "teacher":
+        console.log(firstname + " tecaches coading");
+        break
+    case "driver":
+        console.log(firstname + " he drives a car ");
+        break
+    
+}
+
+
+
+
+age = 56;
+
+switch(true) {
+    case age <13:
+        console.log("he is still a child");
+        break
+    case age >= 13 && age < 20:
+        console.log("he is a teeager ");
+        break
+    case age >= 20 && age <30:
+        console.log("he is a young man ");
+        break
+    default:
+        console.log("he is man")
+}
+
+
+*/
+
+
+
+// trurhy and falsy values and equally operators 
+
+var height;
+if (height) {
+    console.log("variable is defined");
+
+
+} else {
+    console.log("variable not defined")
+}
+
 
 
 
