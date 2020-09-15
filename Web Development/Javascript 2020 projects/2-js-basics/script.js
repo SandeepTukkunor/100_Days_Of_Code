@@ -247,14 +247,15 @@ switch(true) {
 }
 
 
-*/
+
 
 
 
 // trurhy and falsy values and equally operators 
 
 var height;
-if (height) {
+height = 23;
+if (height || height === 0 ) {
     console.log("variable is defined");
 
 
@@ -262,8 +263,51 @@ if (height) {
     console.log("variable not defined")
 }
 
+// equality opeator
+
+if (height == "23"){
+    console.log("the == opertaor does type cohersion");
+
+}
 
 
+
+//coading challeneg 2
+
+var scoreJohn = (89+ 120+ 103)/3;
+var scoreMike = (116+ 94+ 123)/3;
+var scoreMary = (97+ 134+105)/3;
+
+console.log(scoreJohn, scoreMike, scoreMary);
+if (scoreJohn > scoreMike && scoreJohn > scoreMary){
+    console.log("john wins the game");
+} else if (scoreMike > scoreJohn && scoreMike > scoreMary){
+    console.log("mike wins the game")
+} else if (scoreMary > scoreJohn && scoreMary > scoreMike){
+    console.log("mary wins the game ")
+} else {
+    console.log("its a draw")
+}
+
+
+
+// if (scoreJohn > scoreMike) {
+//     console.log("John wins the game");
+// } else if (scoreMike > scoreJohn){
+//     console.log("mike wins the game");
+// } else {
+//     console.log("the match is drawn");
+// }
+
+*/
+
+// functions
+
+function calculateAge(birthYear){
+    return 2018 - birthYear;
+    
+
+}
 
 
 
