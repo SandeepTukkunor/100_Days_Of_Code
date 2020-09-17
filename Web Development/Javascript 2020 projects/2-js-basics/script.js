@@ -299,7 +299,7 @@ if (scoreJohn > scoreMike && scoreJohn > scoreMary){
 //     console.log("the match is drawn");
 // }
 
-*/
+
 
 // functions
 
@@ -308,6 +308,64 @@ function calculateAge(birthYear){
     
 
 }
+
+var ageSandeep = calculateAge(1997);
+var ageMike = calculateAge(1948);
+var ageJane = calculateAge(1969);
+console.log(ageSandeep, ageMike, ageJane);
+
+
+
+// calculte the years untill the retiremnet 
+function yearUntillRetirement(birthYear, firstname){
+    var age = calculateAge(birthYear);
+    var retirement = 65- age;
+    
+    if (retirement >0){
+        console.log(firstname + " retires in "+ retirement + " years");
+
+    } else {
+        console.log(firstname + " is already retired")
+    }
+
+
+}
+
+yearUntillRetirement(1990, "john");
+yearUntillRetirement(1948, "mike")
+yearUntillRetirement(1969, "jane")
+
+
+
+
+
+// * function Statements and expressions 
+
+var whatDoYouDo = function(job, firstname){
+    switch(job){
+        case "teacher":
+            return firstname + " teaches how to code"
+        case "driver":
+            return firstname + " drives a car in chennai"
+        case "designer":
+            return firstname + " Design beautiful websites"
+
+        default:
+            return firstname + " does something else"
+    }
+}
+
+
+console.log(whatDoYouDo("designer", "sandeep")) 
+
+
+*/
+
+// Arrays: collection of variables
+var names = ["sandeep", "sunil", "Anil"];
+var years = new Array(1997, 1999, 2001);
+console.log(names[0])
+console.log(names[1])
 
 
 
