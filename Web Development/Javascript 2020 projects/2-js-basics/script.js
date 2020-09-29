@@ -501,7 +501,7 @@ if (john.bmi > mark.bmi) {
 }  else if (mark.bmi > john.bmi){
     console.log(mark.fullname + " has higher BMI")
 } else {
-    console.log("they have the same BMI")
+    console.log("they have the same to same  BMI")
 }
 
 
